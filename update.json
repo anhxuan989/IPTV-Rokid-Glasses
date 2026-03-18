@@ -1,1 +1,14 @@
-
+{
+  "version": "1.0.0",
+  "update_config": {
+    "m3u_url": "https://xem.hoiquan.click",
+    "force_update": true,
+    "last_updated": "2026-03-18T10:33:17Z",
+    "cache_expiry_hours": 24,
+    "update_message": "Update."
+  },
+  "metadata": {
+    "provider": "Sample m3u",
+    "support": "https://sample.com"
+  }
+}
