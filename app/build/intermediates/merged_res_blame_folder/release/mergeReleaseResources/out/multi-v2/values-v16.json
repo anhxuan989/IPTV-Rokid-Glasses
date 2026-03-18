@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "iptv.rokid.max.app-mergeReleaseResources-42:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\anhxu\\.gradle\\caches\\9.2.1\\transforms\\1cfcc03645f0d12e72ac4419ca33cd09\\workspace\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

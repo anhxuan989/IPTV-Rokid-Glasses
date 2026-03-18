@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="iptv.rokid.max"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:5:5-76
+12-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:5:22-73
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:6:5-76
+13-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:6:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:7:5-79
+14-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:7:22-76
+15
+16    <uses-feature
+16-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:8:5-87
+17        android:name="android.software.leanback"
+17-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:8:19-59
+18        android:required="false" />
+18-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:8:60-84
+19    <uses-feature
+19-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:9:5-90
+20        android:name="android.hardware.touchscreen"
+20-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:9:19-62
+21        android:required="false" />
+21-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:9:63-87
+22
+23    <permission
+23-->[androidx.core:core:1.12.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\1cfcc03645f0d12e72ac4419ca33cd09\workspace\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+24        android:name="iptv.rokid.max.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.12.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\1cfcc03645f0d12e72ac4419ca33cd09\workspace\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.12.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\1cfcc03645f0d12e72ac4419ca33cd09\workspace\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="iptv.rokid.max.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.12.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\1cfcc03645f0d12e72ac4419ca33cd09\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.12.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\1cfcc03645f0d12e72ac4419ca33cd09\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:11:5-28:19
+30        android:allowBackup="true"
+30-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:12:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.12.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\1cfcc03645f0d12e72ac4419ca33cd09\workspace\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:13:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:14:9-41
+35        android:supportsRtl="true"
+35-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:15:9-35
+36        android:theme="@style/Theme.TvApp" >
+36-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:16:9-43
+37        <activity
+37-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:17:9-27:20
+38            android:name="iptv.rokid.max.MainActivity"
+38-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:18:13-41
+39            android:banner="@mipmap/ic_launcher"
+39-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:21:13-49
+40            android:exported="true"
+40-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:19:13-36
+41            android:theme="@style/Theme.TvApp" >
+41-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:20:13-47
+42            <intent-filter>
+42-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:22:13-26:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:23:17-69
+43-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:23:25-66
+44
+45                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+45-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:24:17-86
+45-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:24:27-83
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:25:17-77
+46-->C:\Users\anhxu\OneDrive\Documents\TV\app\src\main\AndroidManifest.xml:25:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\33c405e177a7031d1ce129f3956fb794\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\33c405e177a7031d1ce129f3956fb794\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+52            android:authorities="iptv.rokid.max.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\33c405e177a7031d1ce129f3956fb794\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\33c405e177a7031d1ce129f3956fb794\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\33c405e177a7031d1ce129f3956fb794\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\33c405e177a7031d1ce129f3956fb794\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\33c405e177a7031d1ce129f3956fb794\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\79ba5067dd3e0640cc32bd586aec3962\workspace\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\79ba5067dd3e0640cc32bd586aec3962\workspace\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\79ba5067dd3e0640cc32bd586aec3962\workspace\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+60            <meta-data
+60-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+62                android:value="androidx.startup" />
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+63        </provider>
+64
+65        <receiver
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+66            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+67            android:directBootAware="false"
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+68            android:enabled="true"
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+69            android:exported="true"
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+70            android:permission="android.permission.DUMP" >
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+72                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+73            </intent-filter>
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+75                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+76            </intent-filter>
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+78                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+81                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\anhxu\.gradle\caches\9.2.1\transforms\06aa0792f7ca986ea5e5b3fee76b03f6\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+82            </intent-filter>
+83        </receiver>
+84    </application>
+85
+86</manifest>
